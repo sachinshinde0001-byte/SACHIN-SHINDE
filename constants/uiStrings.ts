@@ -1,0 +1,122 @@
+export const uiStrings = {
+  // App Header
+  mainTitle: 'AI cartoon video generator',
+  mainSubtitle: 'Your AI-powered cartoon creation studio',
+
+  // Nav Tabs
+  fromIdeaTab: 'From Idea',
+  fromScriptTab: 'From Script',
+  animateImageTab: 'Animate Image',
+
+  // IdeaForm
+  languageLabel: 'Language',
+  describeYourIdeaLabel: 'Describe your cartoon idea',
+  suggestIdeaButton: 'Suggest an Idea',
+  suggestingIdeaButton: 'Suggesting...',
+  ideaPlaceholder: 'e.g., A brave squirrel who wants to fly to the moon',
+  stopRecordingAriaLabel: 'Stop recording',
+  startRecordingAriaLabel: 'Start recording',
+  generateIdeaButton: 'Generate Cartoon Concept',
+  generatingButton: 'Generating...',
+
+  // ScriptForm
+  pasteYourScriptLabel: '...or paste your script here',
+  scriptPlaceholder: 'Title: The Magical Tree\n\nScene 1: A sunny forest...',
+  createFromScriptButton: 'Create from Script',
+  creatingButton: 'Creating...',
+  
+  // ResultDisplay
+  charactersSectionHeader: 'Characters',
+  generateScriptButton: 'Write the Script!',
+
+  // CharacterCard
+  stopReadAloudAriaLabel: 'Stop reading description aloud',
+  readAloudAriaLabel: 'Read description aloud',
+  voiceLabel: 'Voice',
+  voiceSelectAriaLabel: 'Select voice for {name}',
+  voiceSelectDefault: 'Default',
+  testVoiceAriaLabel: 'Test selected voice',
+  testVoiceText: 'Hello, my name is {name}.',
+
+  // ScriptEditor
+  scriptSectionHeader: 'Script & Story',
+  musicSectionHeader: 'Music Suggestions',
+  loadingRegeneratingScript: 'Regenerating script...',
+  finishEditingAriaLabel: 'Finish editing script',
+  editScriptAriaLabel: 'Edit script',
+  saveButton: 'Save',
+  editButton: 'Edit',
+  regenerateScriptAriaLabel: 'Regenerate script',
+  regenerateButton: 'Regenerate',
+  copyScriptAriaLabel: 'Copy script to clipboard',
+  copiedButton: 'Copied!',
+  copyButton: 'Copy',
+  saveScriptAriaLabel: 'Save script as a text file',
+  saveAsTxtButton: 'Save as .txt',
+  scriptEditorAriaLabel: 'Script text editor',
+  txtSaveFileScene: 'SCENE',
+  txtSaveFileSetting: 'SETTING',
+  txtSaveFileAction: 'ACTION',
+  txtSaveFileDialogue: 'DIALOGUE',
+  txtSaveFileMoralHeader: 'MORAL',
+  
+  // VideoPlayer
+  videoSectionHeader: 'Video',
+  loadingVideo: 'Your video is being created...',
+  loadingVideoSubtitle: 'This can take a few minutes. Please wait!',
+  videoGenerationPrompt: 'Ready to bring your story to life? <br /> Click the button to generate an animated video!',
+  generateVideoButton: '🎬 Generate Video',
+  videoErrorLabel: 'Oh no! Something went wrong',
+  videoReadyMessage: 'Hooray! Your video is ready.',
+  videoUnsupported: 'Your browser does not support the video tag.',
+  downloadButton: 'Download Video',
+  animateAgainButton: 'Animate Again',
+
+  // AnimateImageForm
+  animationStyleHappy: 'Happy',
+  animationStyleWalking: 'Walking',
+  animationStyleDancing: 'Dancing',
+  animationStyleWaving: 'Waving',
+  myAnimationTitle: 'My Animation',
+  animateTitle: 'Animate an Image',
+  animateSubtitle: 'Bring any character to life with a short animation.',
+  animateUploadStep: '1. Upload an Image...',
+  orSeparator: 'OR',
+  animateGenerateStep: '2. ...Generate One with AI',
+  animateImagePlaceholder: 'e.g., A friendly robot holding a flower, digital art style',
+  aspectRatioLabel: 'Aspect Ratio',
+  aspectRatioSquare: 'Square (1:1)',
+  aspectRatioLandscape: 'Landscape (16:9)',
+  aspectRatioPortrait: 'Portrait (9:16)',
+  aspectRatioStandard: 'Standard (4:3)',
+  aspectRatioTall: 'Tall (3:4)',
+  generateButton: 'Generate',
+  loadingConjuringImage: 'Conjuring your image...',
+  clearImageAriaLabel: 'Clear image and start over',
+  animateChooseStyleStep: '3. Choose an Animation Style',
+  animateCustomPlaceholder: '...or describe your own animation. e.g., The character jumps up and down excitedly.',
+  animateButton: 'Animate',
+  imageUploaderDragLabel: 'Drag & drop your image here',
+  imageUploaderBrowseLabel: 'or click to browse',
+
+  // Cartoon Of The Week
+  cartoonOfTheWeekTitle: '🌟 Cartoon of the Week 🌟',
+  cartoonOfTheWeekSubtitle: 'Check out this amazing creation from our community!',
+  featuredBadge: 'Featured',
+  creatorLabel: 'Created by',
+  likesLabel: '{count} Likes',
+  voteButton: 'Vote for Next Week',
+  shareButton: 'Share',
+  hallOfFameLink: 'Hall of Fame',
+
+  // Gamification
+  achievementsTitle: 'Achievements',
+  closeAriaLabel: 'Close',
+  myAchievements: 'My Achievements',
+  leaderboardTitle: 'Weekly Leaderboard',
+  pointsLabel: 'Points',
+  shareAchievementsButton: 'Share My Achievements!',
+  shareMessage: 'I just unlocked new achievements on the AI Cartoon Video Generator! Check it out! #AICartoon #CreativeMilestone',
+  achievementsBarLabel: 'View achievements',
+  pointsToastMessage: '+{points} Points!',
+};

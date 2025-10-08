@@ -1,0 +1,7 @@
+{
+  "name": "AI cartoon video generator",
+  "description": "An AI-powered tool that helps you generate cartoon video ideas for YouTube, or turn any image into an animated video. Now available in multiple languages including Hindi, Marathi, and Tamil!",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

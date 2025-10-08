@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html data-theme="cartoon">
+  <head>
+    <meta charset="UTF--8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI cartoon video generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<style>
+    :root, [data-theme="light"] {
+        --bg-primary: #f3f4f6;
+        --bg-secondary: #ffffff;
+        --text-primary: #1f2937;
+        --text-secondary: #4b5563;
+        --text-muted: #6b7280;
+        --text-inverted: #ffffff;
+        --border-color: #e5e7eb;
+        --border-color-heavy: #d1d5db;
+        --accent-primary: #22d3ee;
+        --accent-secondary: #a78bfa;
+        --accent-primary-dark: #06b6d4;
+        --accent-secondary-dark: #8b5cf6;
+        --error-bg: #fee2e2;
+        --error-border: #f87171;
+        --error-text: #b91c1c;
+        --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+    [data-theme="dark"] {
+        --bg-primary: #111827;
+        --bg-secondary: #1f2937;
+        --text-primary: #f9fafb;
+        --text-secondary: #d1d5db;
+        --text-muted: #9ca3af;
+        --text-inverted: #111827;
+        --border-color: #374151;
+        --border-color-heavy: #4b5563;
+        --accent-primary: #67e8f9;
+        --accent-secondary: #c4b5fd;
+        --accent-primary-dark: #22d3ee;
+        --accent-secondary-dark: #a78bfa;
+        --error-bg: #450a0a;
+        --error-border: #b91c1c;
+        --error-text: #fecaca;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+    [data-theme="pastel"] {
+        --bg-primary: #f5f3ff;
+        --bg-secondary: #ffffff;
+        --text-primary: #581c87;
+        --text-secondary: #5b21b6;
+        --text-muted: #7c3aed;
+        --text-inverted: #ffffff;
+        --border-color: #e9d5ff;
+        --border-color-heavy: #d8b4fe;
+        --accent-primary: #f0abfc;
+        --accent-secondary: #a5b4fc;
+        --accent-primary-dark: #e879f9;
+        --accent-secondary-dark: #818cf8;
+        --error-bg: #ffe4e6;
+        --error-border: #ff8fab;
+        --error-text: #c51833;
+        --shadow-color: rgba(124, 58, 237, 0.1);
+    }
+    [data-theme="vibrant"] {
+        --bg-primary: #fffbeb;
+        --bg-secondary: #ffffff;
+        --text-primary: #422006;
+        --text-secondary: #78350f;
+        --text-muted: #92400e;
+        --text-inverted: #ffffff;
+        --border-color: #fde68a;
+        --border-color-heavy: #fcd34d;
+        --accent-primary: #fb7185;
+        --accent-secondary: #38bdf8;
+        --accent-primary-dark: #f43f5e;
+        --accent-secondary-dark: #0ea5e9;
+        --error-bg: #ffe4e6;
+        --error-border: #ff8fab;
+        --error-text: #c51833;
+        --shadow-color: rgba(217, 119, 6, 0.1);
+    }
+    [data-theme="cartoon"] {
+        --bg-primary: #f0f9ff; /* sky blue tint */
+        --bg-secondary: #ffffff;
+        --text-primary: #4c1d95; /* deep violet */
+        --text-secondary: #6d28d9;
+        --text-muted: #8b5cf6;
+        --text-inverted: #ffffff;
+        --border-color: #e0e7ff; /* lavender tint */
+        --border-color-heavy: #c7d2fe;
+        --accent-primary: #a78bfa; /* lavender */
+        --accent-secondary: #38bdf8; /* sky blue */
+        --accent-primary-dark: #8b5cf6;
+        --accent-secondary-dark: #0ea5e9;
+        --error-bg: #ffe4e6;
+        --error-border: #ff8fab;
+        --error-text: #c51833;
+        --shadow-color: rgba(109, 40, 217, 0.1);
+    }
+    .shadow-themed {
+        box-shadow: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -2px var(--shadow-color);
+    }
+</style>
+</head>
+  <body class="bg-[var(--bg-primary)]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
